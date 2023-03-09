@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRUD_AlunosMateriasNotas
+build_property.RootNamespace = CRUD_AlunosMateriasNotas
+build_property.ProjectDir = C:\Users\casa\Documents\CRUD_AlunosMateriasNotas\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\casa\Documents\CRUD_AlunosMateriasNotas
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Aluno/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQXR1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Aluno/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Aluno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Materia/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYVxBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Materia/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYVxDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Materia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Nota/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YVxBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Nota/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YVxDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Nota/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Nota/NotasPorAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90YVxOb3Rhc1BvckFsdW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/casa/Documents/CRUD_AlunosMateriasNotas/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0osg1yd8gc

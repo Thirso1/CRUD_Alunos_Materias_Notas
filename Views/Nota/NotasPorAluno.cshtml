@@ -1,0 +1,71 @@
+﻿@model List<CRUD_AlunosMateriasNotas.Models.Nota>
+@{
+    ViewData["Title"] = "Index";
+    var pesquisa = Context.Request.Query["pesquisa"];
+}
+<h1>Notas</h1>
+
+<br />
+<br />
+<!--
+    Formulário
+    -- QueryString: Colaborador/Cliente/Index?pesquisa={palavraDigitada}&pagina=3
+-->
+    <div class="row">
+        <div class="form-group col-md-8">
+            <label for="pesquisa"></label>
+            <h2>
+                @ViewBag.Aluno.Nome
+            </h2>                
+                
+        <h4>Notas por Matéria</h4>
+        </div>
+        <button type="submit" class="btn btn-primary">Buscar</button>
+        <a asp-action="Index" class="btn btn-secondary">Novo</a>
+    </div>
+
+
+<br />
+<br />
+
+@*@{ await Html.RenderPartialAsync("~/Views/Shared/_Mensagem.cshtml"); }*@
+
+@if (Model.Count > 0)
+{
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">@Html.DisplayNameFor(model => model.First().Id)</th>
+                    <th scope="col">Materia</th>
+                    <th scope="col">Nota</th>
+                    <th scope="col">Data</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Nota nota in Model)
+                {
+                    <tr>
+                        <th scope="row">@nota.Id</th>
+                        <td>@nota.Materia.Nome</td>
+                        <td>@nota.Valor</td>
+                        <td>@nota.Data</td>
+                        <td>
+                            <a asp-action="Atualizar" asp-route-id="@nota.Id" class="btn btn-secondary btn-tables">Atualizar</a>
+                            <a asp-action="Excluir" asp-route-id="@nota.Id" class="btn btn-danger btn-tables">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @* @Html.PagedListPager((IPagedList)Model, pagina => Url.Action("Index", new { pagina = pagina, pesquisa = pesquisa }))*@
+
+}
+else
+{
+    <span>Nenhum registro cadastrado!</span>
+}
