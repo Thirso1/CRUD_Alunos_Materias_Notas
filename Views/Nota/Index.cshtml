@@ -11,17 +11,15 @@
     Formulário
     -- QueryString: Nota/Index?pesquisa={palavraDigitada}&pagina=3
 -->
-<form method="post">
-    <div class="row">
-        <div class="form-group col-md-6">
-            <label for="pesquisa"></label>
-            <input type="text" name="pesquisa" id="pesquisa" value="@pesquisa" class="form-control" placeholder="Digite o nome do aluno" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Buscar</button>
-        <a asp-action="Cadastrar" class="btn btn-secondary botaoCadastrarNovo">Nova Nota</a>
+<form class="row g-3" method="post">
+    <div class="col-auto">
+        <label for="pesquisa"></label>
+        <input type="text" name="pesquisa" id="pesquisa" value="@pesquisa" class="form-control" placeholder="Digite o nome do aluno" required>
     </div>
-
-
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary btn_novo">Buscar</button>
+        <a asp-action="Cadastrar" class="btn btn-secondary btn_novo">Nova Nota</a>
+    </div>
 </form>
 <br />
 <br />

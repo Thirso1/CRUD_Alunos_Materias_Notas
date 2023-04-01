@@ -13,6 +13,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\buscar.svg",
+      "PackagePath": "staticwebassets\\icones\\buscar.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\clonar.svg",
+      "PackagePath": "staticwebassets\\icones\\clonar.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\editar.svg",
+      "PackagePath": "staticwebassets\\icones\\editar.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\excluir.svg",
+      "PackagePath": "staticwebassets\\icones\\excluir.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\people-group.svg",
+      "PackagePath": "staticwebassets\\icones\\people-group.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\power-off.svg",
+      "PackagePath": "staticwebassets\\icones\\power-off.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\score.svg",
+      "PackagePath": "staticwebassets\\icones\\score.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\trash.svg",
+      "PackagePath": "staticwebassets\\icones\\trash.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\user.svg",
+      "PackagePath": "staticwebassets\\icones\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\icones\\user_painel.svg",
+      "PackagePath": "staticwebassets\\icones\\user_painel.svg"
+    },
+    {
       "Id": "C:\\Users\\casa\\Documents\\CRUD_AlunosMateriasNotas\\wwwroot\\js\\Actions.js",
       "PackagePath": "staticwebassets\\js\\Actions.js"
     },

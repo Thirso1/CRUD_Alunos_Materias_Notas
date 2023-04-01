@@ -16,3 +16,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.btn_novo{
+    margin-top: 20px;
+}
+
+.icones {
+    margin-right:10px;
+    height: 26px;
+    width: 26px;
+}

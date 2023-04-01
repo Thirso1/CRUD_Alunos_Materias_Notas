@@ -3,7 +3,7 @@
     ViewData["Title"] = "Index";
     var pesquisa = Context.Request.Query["pesquisa"];
 }
-<h1>Notas</h1>
+<h3>Notas por Aluno</h3>
 
 <br />
 <br />
@@ -14,14 +14,11 @@
     <div class="row">
         <div class="form-group col-md-8">
             <label for="pesquisa"></label>
-            <h2>
+            <h1>
                 @ViewBag.Aluno.Nome
-            </h2>                
+            </h1>                
                 
-        <h4>Notas por Matéria</h4>
         </div>
-        <button type="submit" class="btn btn-primary">Buscar</button>
-        <a asp-action="Index" class="btn btn-secondary">Novo</a>
     </div>
 
 
@@ -51,7 +48,7 @@
                         <th scope="row">@nota.Id</th>
                         <td>@nota.Materia.Nome</td>
                         <td>@nota.Valor</td>
-                        <td>@nota.Data</td>
+                        <td>@nota.Data.ToString("dd/MM/yyyy")</td>
                         <td>
                             <a asp-action="Atualizar" asp-route-id="@nota.Id" class="btn btn-secondary btn-tables">Atualizar</a>
                             <a asp-action="Excluir" asp-route-id="@nota.Id" class="btn btn-danger btn-tables">Excluir</a>

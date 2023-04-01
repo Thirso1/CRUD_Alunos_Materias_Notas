@@ -8,26 +8,9 @@
 
   <ItemGroup>
     <Content Remove="Views\Nota\NotasPorAlunos.cshtml" />
-    <Content Remove="wwwroot\icones\arrow-down.svg" />
-    <Content Remove="wwwroot\icones\boxes-stacked-painel.svg" />
-    <Content Remove="wwwroot\icones\boxes-stacked.svg" />
-    <Content Remove="wwwroot\icones\buscar.svg" />
-    <Content Remove="wwwroot\icones\cart-plus.svg" />
-    <Content Remove="wwwroot\icones\cart-shopping.svg" />
-    <Content Remove="wwwroot\icones\clonar.svg" />
-    <Content Remove="wwwroot\icones\dollar.png" />
-    <Content Remove="wwwroot\icones\editar.svg" />
-    <Content Remove="wwwroot\icones\excluir.svg" />
-    <Content Remove="wwwroot\icones\people-group.svg" />
-    <Content Remove="wwwroot\icones\power-off.svg" />
-    <Content Remove="wwwroot\icones\trash.svg" />
-    <Content Remove="wwwroot\icones\truck-ramp-box.svg" />
-    <Content Remove="wwwroot\icones\user.svg" />
-    <Content Remove="wwwroot\icones\user_painel.svg" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\icones\" />
     <Folder Include="wwwroot\lib\bootstrap\" />
   </ItemGroup>
 
